@@ -24,7 +24,7 @@ Only C source files live here. The .hex, .lst and other Keil leftovers didn't ma
 
 </div>
 
-- Chip: STC89C51 / AT89C51, written in Keil C51 (`#include <reg51.h>`)
+- Chip: AT89C51, written in Keil C51 (`#include <reg51.h>`)
 - Each folder is one experiment: wire it up, build the HEX, flash it, watch it blink
 - Timing done the classic way — an unhealthy amount of `delay()` loops
 - Reference freely, just don't sell it
