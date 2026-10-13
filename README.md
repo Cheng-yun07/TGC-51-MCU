@@ -2,9 +2,9 @@
 
 # 51 MCU Learning Repo
 
-A collection of C51 programs written in class (and after class) while learning the 8051 microcontroller at Hubei Three Gorges Polytechnic.
+Small C51 programs from the 8051 microcontroller course at Hubei Three Gorges Polytechnic — LEDs, buzzers, buttons, and one very dramatic sound-and-light alarm.
 
-Only C source files for the 8051 (Keil C51) are committed here — no build artifacts.
+Only C source files live here. The .hex, .lst and other Keil leftovers didn't make the cut.
 
 <br>
 
@@ -25,10 +25,9 @@ Only C source files for the 8051 (Keil C51) are committed here — no build arti
 </div>
 
 - Chip: STC89C51 / AT89C51, written in Keil C51 (`#include <reg51.h>`)
-- Course experiments, after-class exercises and practice programs
-- All files are C51 source code, handy for learning and review
-- Feel free to reference, but not for commercial use
-- Honestly I have no idea what I wrote
+- Each folder is one experiment: wire it up, build the HEX, flash it, watch it blink
+- Timing done the classic way — an unhealthy amount of `delay()` loops
+- Reference freely, just don't sell it
 
 ---
 
